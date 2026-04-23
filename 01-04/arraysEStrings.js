@@ -23,4 +23,4 @@ let fraseFiltrada = nome.includes("Erick");
 console.log(`Meu primeiro nome eh Erick? ${fraseFiltrada}`);*/
 
 let frase = "Hoje comi cenoura, adoro cenoura";
-console.log(frase.replaceAll("cenoura", "batata"));
+console.log(frase.replaceAll("cenoura", "bosta"));
