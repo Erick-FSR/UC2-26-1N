@@ -11,24 +11,22 @@ function criarusuario(nome, idade, cidade, hobbies) {
 // PARTE 2
 
 
-
 function formatarHobbies(hobbies) {
     let hobbiesString = hobbies.join(", ")
     return hobbiesString;
 }
 
 
-
-
 //PARTE 3
+
 
 function gerarDescricao(usuario) {
     return (`${usuario[0]}, tem ${usuario[1]} anos, mora em ${usuario[2]}, e gosta de: ${usuario[3]}, ${usuario[4]} e ${usuario[5]}`)
 }
 
 
-
 // PARTE 4
+
 
 function adicionarUsuario(usuarios, usuario) {
     usuarios.push(usuario)
@@ -57,14 +55,18 @@ hobbies.push(hobby1);
 hobbies.push(hobby2);
 hobbies.push(hobby3);
 
+console.clear()
 console.log(criarusuario(nome, idade, cidade, hobbies));
 
+console.log("================= CADASTRO DE USUÁRIO 2 ==================")
 let nome2 = ask.question("Digite o seu nome: ");
 let idade2 = Number(ask.question("Digite a sua idade: "))
 let cidade2 = ask.question("Digite o nome de sua cidade: ")
 let hobby01 = ask.question("Digite um hobby: ")
 let hobby02 = ask.question("Digite mais um hobby: ")
 let hobby03 = ask.question("Digite o ultimo hobby: ")
+
+console.clear()
 
 const usuario2 = []
 
@@ -82,7 +84,9 @@ hobbies.push(hobby1);
 hobbies.push(hobby2);
 hobbies.push(hobby3);
 
+console.log("============ DADOS FORMATADOS =================")
 console.log(formatarHobbies(hobbies));
+console.log("===============================================")
 
 // PARTE 3
 
